@@ -1,0 +1,22 @@
+{
+  "name": "CPL",
+  "version": "1.0.1",
+  "manifest_version": 2,
+  "description": "CPL counts and displays the number of characters selected when you click and drag to select text in the browser.",
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  },
+  "browser_action": {
+    "default_icon": "icon128.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*", "file:///*/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
