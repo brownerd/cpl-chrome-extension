@@ -1,6 +1,6 @@
 {
   "name": "cpl-chrome-extension",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CPL counts and displays the number of characters selected when you click and drag to select text in the browser. If you are into web typography, use this to calculate the characters-per-line easily.",
   "main": "dist/index.js",
   "scripts": {
@@ -29,6 +29,6 @@
     "rimraf": "^2.6.3"
   },
   "dependencies": {
-    "rdmkit-cpl": "^1.0.5"
+    "rdmkit-cpl": "^1.0.8"
   }
 }
