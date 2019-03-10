@@ -1,6 +1,6 @@
 {
   "name": "CPL",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 2,
   "description": "CPL counts and displays the number of characters selected when you click and drag to select text in the browser.",
   "icons": { 
