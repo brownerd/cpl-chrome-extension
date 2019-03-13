@@ -29,6 +29,6 @@
     "rimraf": "^2.6.3"
   },
   "dependencies": {
-    "rdmkit-cpl": "^1.0.13"
+    "rdmkit-cpl": "^1.0.14"
   }
 }
